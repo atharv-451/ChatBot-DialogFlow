@@ -1,3 +1,22 @@
+# Food Order Chatbot
+
+This project is a chatbot application built with Dialogflow, Python, and FastAPI. It allows users to order food and track their food orders seamlessly.
+
+## Features
+
+- **Ordering System:** Users can interact with the chatbot to place food orders.
+- **Order Tracking:** Users can check the status and details of their food orders.
+- **User-Friendly Interface:** The chatbot provides a natural language interface for a smooth user experience.
+
+## Prerequisites
+
+Before running the chatbot, make sure you have the following installed:
+
+- Python 3.x
+- Dialogflow API credentials
+- FastAPI and required dependencies
+
+## Installation
 Directory structure
 ===================
 backend: Contains Python FastAPI backend code
@@ -22,3 +41,4 @@ ngrok for https tunneling
 3. Open windows command prompt, go to that folder and run this command: ngrok http 80000
 
 NOTE: ngrok can timeout. you need to restart the session if you see session expired message.
+
